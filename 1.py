@@ -1,6 +1,6 @@
 #print("Hola Mundo")
 
-#Variables
+#Variables XD
 
 """Cadenas por defecto (str)
 
