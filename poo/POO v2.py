@@ -43,8 +43,8 @@ class Perro:
     def get_nombre(self):
         return self.nombre
 
-"""perro1 = Perro("Chiguagua", "Bob", "Blanco")
-perro1.Info()
+perro1 = Perro("Chihuahua", "Bob", "Blanco")
+perro1.info()
 perro1.ladrar()
 perro1.dormir()
 
@@ -65,6 +65,7 @@ class PerroGuia(Perro):
     
 perro2 = PerroGuia("Yorkshire", "Juan", "Marron", "Paco")
 perro2.ladrar(perro2.get_dueño())
+perro2.Info
 
 class PerroPolicía(PerroGuia):
 
@@ -79,7 +80,7 @@ class PerroPolicía(PerroGuia):
 
 perro3 = PerroPolicía(" " ,"Ben", "Negro", "Poli")
 print(perro3.raza)
-"""
+
 class Pelea:
     
     def __init__(self,perro1, perro2):
